@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+
+.top-row {
+  padding: 0;
+  font-weight: bold;
+  background-color:#666666;
+  font-size: 6rem;
+
+}
+.lc01,.lc02,.lc03 {
+  color:white;
+  display: inline-block;
+  padding: 32px 0px 32px 0px;
+        -ms-transform: skew(-20deg); /* IE 9 */
+    -webkit-transform: skew(-20deg); /* Safari */
+    transform: skew(-20deg); /* Standard syntax */
+}
+
+.lc-inner {
+    display: inline-block;
+    -ms-transform: skew(20deg) !important; /* IE 9 */
+    -webkit-transform: skew(20deg)!important; /* Safari */
+    transform: skew(20deg)!important; /* Standard syntax */
+}
+.lc01 {
+  background-color:#48D1CC;
+  text-align: right;
+
+}
+.lc02 {
+  background-color:#ff8943;
+}
+
+.lc03 {
+  width:50%;
+  background-color:#666666;
+}
+
+.btn-outline-primary {
+  color:#48D1CC;
+  border-color:#48D1CC;
+}
+
+.btn-outline-primary:hover,.btn-outline-primary:focus {
+  color:#ffffff;
+  background-color:#48D1CC;
+  border-color:#48D1CC;
+}
+
+.btn-outline-primary:active {
+  color:#ffffff;
+  background-color:#666666;
+  border-color:#666666;
+}
