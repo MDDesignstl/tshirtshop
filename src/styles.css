@@ -23,17 +23,20 @@
     transform: skew(20deg)!important; /* Standard syntax */
 }
 .lc01 {
+    width:45%;
   background-color:#48D1CC;
   text-align: right;
-
+  padding-right: .1em;
 }
 .lc02 {
+  width:30%;
   background-color:#ff8943;
+  text-align: center;
 }
 
 .lc03 {
-  width:50%;
-  background-color:#666666;
+   width:25%;
+   text-align: center;
 }
 
 .btn-outline-primary {
@@ -51,4 +54,22 @@
   color:#ffffff;
   background-color:#666666;
   border-color:#666666;
+}
+
+@media(max-width: 1079px) {
+  .top-row {
+    font-size: 4rem;
+  }
+}
+
+@media(max-width: 799px) {
+  .top-row {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width: 499px) {
+  .top-row {
+    font-size: 2rem;
+  }
 }
