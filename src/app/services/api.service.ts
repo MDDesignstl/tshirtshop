@@ -4,14 +4,14 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class ApiService{
-    private apiCall: string;
+    private apiCall_gp: string;
 
     constructor(private _http:Http){
     }
 
     getProducts() {
-        this.apiCall = 'localhost:3000/products';
-        return this._http.get(this.apiCall)
+        this.apiCall_gp = 'http://localhost:3000/product';
+        return this._http.get(this.apiCall_gp)
             .map(res => res.json());
     }
 

@@ -1,1 +1,7 @@
-Shop Page
+
+<div *ngIf="searchRes" class="row">
+    <div *ngFor="let product of searchRes" class="col-md-3">
+        <h4>{{product.title}}</h4>
+        <p>{{product.description}}</p>
+    </div>   
+</div>
